@@ -1,0 +1,12 @@
+#program to print all the positive numbers in range
+list1 = []
+lis1 = []
+n = int(input('Enter the numbers of elements you want to add:'))
+for i in range(n):
+    x=int(input())
+    list1.append(x)
+print('Initial list is :',list1)
+for i in list1:
+    if i>= 0:
+        lis1.append(i)
+print('final list is:',lis1)
